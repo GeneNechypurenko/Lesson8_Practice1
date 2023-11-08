@@ -27,8 +27,8 @@ namespace Lesson8_Practice1
             SolidBrush redBrush = new SolidBrush(Color.Red);
             Point[] trianglePoints = new Point[]
             {
-                 new Point(180, 170),
-                 new Point(250, 170),
+                 new Point(170, 170),
+                 new Point(240, 170),
                  new Point(200, 110)
             };
             g.FillPolygon(redBrush, trianglePoints);
